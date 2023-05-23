@@ -1,0 +1,118 @@
+.button-login{
+    background-color: transparent !important;
+    border: none;
+    color: hsl(0, 0%, 41%);
+}
+
+.button-login:hover{
+    color: black !important;
+}
+
+.btn-outline-dark{
+    background-color: transparent !important;
+    color: hsl(0, 0%, 41%) !important;
+    border: 1px solid black !important;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.btn-outline-dark:hover{
+    background-color: transparent !important;
+    color: black !important;
+    border: 2px solid black !important;
+}
+
+.icon-nav-format{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-nav-format1{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.feature .dropdown-menu[data-bs-popper]{
+    padding-top: 20px;
+    padding-left: 5px;
+    font-size: 14px;
+    left: -70px;
+    height: 160px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.company .dropdown-menu{
+    color: hsl(0, 0%, 41%) !important;
+    padding-top: 20px;
+    padding-left: 10px;
+    --bs-dropdown-min-width: 0;
+    width: 120px !important;
+    height: 130px;
+}
+
+.company .dropdown-menu[data-bs-popper]{
+    margin: 0;
+    left: 6px;
+    font-size: 14px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.offcanvas-body{
+    padding-left: 40px;
+}
+
+.offcanvas.show:not(.hiding) a{
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.offcanvas.show:not(.hiding) .fw-bold.nav-link{
+    font-size: 18px;
+    font-weight: 300 !important;
+    color: hsl(0, 0%, 41%) !important;
+}
+
+
+.offcanvas.show:not(.hiding) .btn-outline-dark{
+    text-align: center;
+    width: 300px !important;
+    height: 60px;
+    font-size: 18px;
+}
+
+.offcanvas.show:not(.hiding) .justify-content-end {
+    padding-top: 20px;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dropdown-toggle::after{
+    content: unset;
+}
+
+/*.dropdown-toggle::after{*/
+/*    content: "\F286";*/
+/*}*/
+
+.offcanvas.show:not(.hiding) .dropdown-menu[data-bs-popper]{
+    border: 0;
+    box-shadow: unset;
+}
+
+@media (max-width: 375px){
+    .p-4{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .me-1{
+        margin-right: 0 !important;
+    }
+}
